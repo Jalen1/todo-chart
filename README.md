@@ -2,13 +2,15 @@
 ## By: Jalen Wu
 
 This is a todo list application that I built for the sole purpose of familiarizing myself with the Spring Boot framework to build a standalone web application.
-The application starts with the Task object -- which represents a task that the user sets for themself and wants to complete in the future.
-A Task has a title, description, creation date, due date, and completion status. Put simply, the application is a List of Tasks that supports
-create, read, update, and delete functionality through endpoints that are created by Spring Boot.
-A PostgreSQL database is connected to the project, which stores the aforementioned tasks.
 
-The model and logic of this application was built with Java. Spring Boot was leveraged to locally host the application on a web browser, and to abstract
-boilerplate with built-in annotations. PostgreSQL was used in the data layer for the app to write to, and Postman was used to test CRUD functionality on application endpoints. 
+The application starts with the Task object -- which represents a task that the user sets for themself and wants to complete in the future.
+A Task has a title, description, creation date, due date, and completion status. 
+
+The application is a List of Tasks that supports
+create, read, update, and delete functionality through endpoints that are created by Spring Boot.
+A PostgreSQL database is connected to the project, which stores Tasks.
+
+The model and logic of this application was built with Java. Spring Boot was leveraged to abstract boilerplate with built-in annotations and to host the application locally. PostgreSQL was used in the data layer for the app to write to, and Postman was used to test CRUD functionality on application endpoints. 
 
 # Pictures of the Application
 
